@@ -2,27 +2,27 @@
 
 TABLE OF CONTENT
 
-1	Revision History	2
+1	Revision History	
 
-2	Objective	4
+2	Objective	
 
-3	Scope of This Document	4
+3	Scope of This Document	
 
-4	Terms and Definitions	4
+4	Terms and Definitions	
 
-5	Business Process Description	5
+5	Business Process Description	
 
-5.1	S/4 Planning (Receiving Plant):	5
-5.2	Approval portal:	5
-5.3	S/4 Buying (Receiving Plant)	6
-5.4	Vendor actions:	7
-5.5	Adjustments and acknowledgement by S/4 Buying (Receiving Plant)	8
-5.6	If the adjustments appear on the EDI 855,	8
-This will be done automatically by the system, and here ends the process.	8
-5.7	If the adjustments don´t appear on the EDI 855,	8
-These can be manual or not.	8
-5.8	3PL (Receiving Plant)	9
-5.9	Finance accounts payable	9
+5.1	S/4 Planning (Receiving Plant):	
+5.2	Approval portal:	
+5.3	S/4 Buying (Receiving Plant)
+5.4	Vendor actions:	
+5.5	Adjustments and acknowledgement by S/4 Buying (Receiving Plant)	
+5.6	If the adjustments appear on the EDI 855,	
+This will be done automatically by the system, and here ends the process.	
+5.7	If the adjustments don´t appear on the EDI 855,	
+These can be manual or not.	
+5.8	3PL (Receiving Plant)	
+5.9	Finance accounts payable	
 6	Process Flow Chart	10
 7	Annex:	11
 
