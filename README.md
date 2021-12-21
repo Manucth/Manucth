@@ -13,17 +13,29 @@ TABLE OF CONTENT
 Acronym	Description
 
 3PL 	3rd Party Logistics 
+
 CS	Customer Support
+
 DC	Distribution center
+
 EDI	Electronic Data Interchange
+
 Fiori	S/4 Hana Instance
+
 GR 	Goods Receipt 
+
 HOI	HP Own Inventory
+
 PGI	Post Goods Issue
+
 PO 	Purchase Order 
+
 PR 	Purchase Requisition 
+
 RPA	Robotic Process Automation
+
 S/4 	S/4 Hana (SAP system) 
+
 SC 	Supply Chain 
 
 
