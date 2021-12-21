@@ -1,5 +1,61 @@
-### Hi there 👋
+### 
 
+TABLE OF CONTENT
+1	Revision History	2
+2	Objective	4
+3	Scope of This Document	4
+4	Terms and Definitions	4
+5	Business Process Description	5
+5.1	S/4 Planning (Receiving Plant):	5
+5.2	Approval portal:	5
+5.3	S/4 Buying (Receiving Plant)	6
+5.4	Vendor actions:	7
+5.5	Adjustments and acknowledgement by S/4 Buying (Receiving Plant)	8
+5.6	If the adjustments appear on the EDI 855,	8
+This will be done automatically by the system, and here ends the process.	8
+5.7	If the adjustments don´t appear on the EDI 855,	8
+These can be manual or not.	8
+5.8	3PL (Receiving Plant)	9
+5.9	Finance accounts payable	9
+6	Process Flow Chart	10
+7	Annex:	11
+
+
+ 
+2	OBJECTIVE
+This document describes the process of the 504a scenario, New Buy PO (HOI) EDI, as part of the Simplify S/4 Hana project 2021.
+
+3	SCOPE OF THIS DOCUMENT
+This scenario is applicable for external vendors that are EDI connected and working in an HOI model.  
+
+4	TERMS AND DEFINITIONS
+
+Acronym	Description
+3PL 	3rd Party Logistics 
+CS	Customer Support
+DC	Distribution center
+EDI	Electronic Data Interchange
+Fiori	S/4 Hana Instance
+GR 	Goods Receipt 
+HOI	HP Own Inventory
+PGI	Post Goods Issue
+PO 	Purchase Order 
+PR 	Purchase Requisition 
+RPA	Robotic Process Automation
+S/4 	S/4 Hana (SAP system) 
+SC 	Supply Chain 
+
+
+
+
+
+
+
+
+
+
+
+5	BUSINESS PROCESS DESCRIPTION
 
 5.1	S/4 Planning (Receiving Plant):
 This process encloses the process required to create a Purchase Requisition and a Purchase Order from the beginning to the end.
@@ -133,6 +189,22 @@ With the Outbound Shipment the 3PL will receive the four communications and be r
 5.7	Finance accounts payable
 
 The Accounts Payable team will receive the invoice coming from the 3PL via EDI 810 to execute their regular accounts payable processes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
