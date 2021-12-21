@@ -10,33 +10,8 @@ TABLE OF CONTENT
 
 4	Terms and Definitions	
 
-5	Business Process Description	
-
-5.1	S/4 Planning (Receiving Plant):	
-5.2	Approval portal:	
-5.3	S/4 Buying (Receiving Plant)
-5.4	Vendor actions:	
-5.5	Adjustments and acknowledgement by S/4 Buying (Receiving Plant)	
-5.6	If the adjustments appear on the EDI 855,	
-This will be done automatically by the system, and here ends the process.	
-5.7	If the adjustments don´t appear on the EDI 855,	
-These can be manual or not.	
-5.8	3PL (Receiving Plant)	
-5.9	Finance accounts payable	
-6	Process Flow Chart	10
-7	Annex:	11
-
-
- 
-2	OBJECTIVE
-This document describes the process of the 504a scenario, New Buy PO (HOI) EDI, as part of the Simplify S/4 Hana project 2021.
-
-3	SCOPE OF THIS DOCUMENT
-This scenario is applicable for external vendors that are EDI connected and working in an HOI model.  
-
-4	TERMS AND DEFINITIONS
-
 Acronym	Description
+
 3PL 	3rd Party Logistics 
 CS	Customer Support
 DC	Distribution center
@@ -50,14 +25,6 @@ PR 	Purchase Requisition
 RPA	Robotic Process Automation
 S/4 	S/4 Hana (SAP system) 
 SC 	Supply Chain 
-
-
-
-
-
-
-
-
 
 
 
@@ -125,23 +92,6 @@ The PO will be acknowledged by the vendor and will trigger an EDI 855 to HP who 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 5.5	Adjustments and acknowledgement by S/4 Buying (Receiving Plant)
 
 Once the Vendor has acknowledged the PO, HP will need to confirm if the PO will require changes. 
@@ -156,24 +106,6 @@ These adjustments can be manual or not.
 5.5.2.1	If the changes are manual, the HP buyer must do the changes on S/4.  These changes will trigger an EDI 860 (PO change) to the vendor, which consequently will receive the PO changes and will need to send another EDI 865 (PO change ack) back to HP, and here ends the process.
 
 5.5.2.2	If the changes are not manual, here ends the process.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
