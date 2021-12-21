@@ -1,11 +1,17 @@
 ### 
 
 TABLE OF CONTENT
+
 1	Revision History	2
+
 2	Objective	4
+
 3	Scope of This Document	4
+
 4	Terms and Definitions	4
+
 5	Business Process Description	5
+
 5.1	S/4 Planning (Receiving Plant):	5
 5.2	Approval portal:	5
 5.3	S/4 Buying (Receiving Plant)	6
